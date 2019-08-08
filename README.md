@@ -2,7 +2,7 @@
 
 **nzbget in container with multiarch support**
 
-===
+====
 
 Image is automatically updated, when a new version of nzbget arrives. 
 
@@ -32,4 +32,4 @@ docker run -d \
   -e UID=[Users UID] \
   -e GID=[Users GID] \
   -p 6789:6789 \
-  --restart=unless-stopped avpnusr/sabnzbd
+  --restart=unless-stopped avpnusr/nzbget:latest
