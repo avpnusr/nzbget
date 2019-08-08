@@ -15,14 +15,15 @@ Start your container
 -----
 
 Login credentials for the Web-GUI are left on default, unless you load your own config, of course.   
-Username: nzbget   
-Password: tegbzn6789   
+
+**Username:** nzbget   
+**Password:** tegbzn6789   
+
 **Important:** Change this default credentials, or risk someone hijacking the container! 
 
 
-- For **[/config/location]**, use the folder, where your **sabnzbd.ini** file is stored.
-- For **[/complete/folder]**, use the folder, where your completed downloads will be stored.
-- For **[/incomplete/folder]**, use the folder, where the temporary files will be stored, until download is finished.
+- For **[/config/location]**, use the folder, where your **nzbget.conf** file is stored.
+- For **[/downloads/folder]**, use the folder, where your completed downloads will be stored.
 
 ````
 docker run -d \
