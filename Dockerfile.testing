@@ -15,7 +15,7 @@ RUN apk --update --no-cache add \
     rm -rf /opt/nzgbet.run && \
     rm -rf /var/cache/apk/*
 
-VOLUME ["/config", "/downloads"]
+VOLUME ["/config", "/download"]
 
 EXPOSE 6789
 
