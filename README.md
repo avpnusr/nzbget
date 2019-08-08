@@ -1,8 +1,7 @@
 ![NZBGet Logo](https://avatars3.githubusercontent.com/u/3368377?s=200&v=4)
 
-**nzbget in container with multiarch support**
-
-====
+**nzbget in container with multiarch support**   
+===
 
 Image is automatically updated, when a new version of nzbget arrives. 
 
