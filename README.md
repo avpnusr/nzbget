@@ -19,7 +19,7 @@ Login credentials for the Web-GUI are left on default, unless you load your own 
 **Username:** nzbget   
 **Password:** tegbzn6789   
 
-**Important:** Change this default credentials, or risk someone hijacking the container! 
+**Important:** Change the default credentials, or risk someone hijacking the container! 
 
 
 - For **[/config/location]**, use the folder, where your **nzbget.conf** file is stored.
