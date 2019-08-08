@@ -14,6 +14,13 @@ Versions in the latest image
 
 Start your container
 -----
+
+Login credentials for the Web-GUI are left on default, unless you load your own config, of course.   
+Username: nzbget   
+Password: tegbzn6789   
+**Important:** Change this default credentials, or risk someone hijacking the container! 
+
+
 - For **[/config/location]**, use the folder, where your **sabnzbd.ini** file is stored.
 - For **[/complete/folder]**, use the folder, where your completed downloads will be stored.
 - For **[/incomplete/folder]**, use the folder, where the temporary files will be stored, until download is finished.
@@ -21,9 +28,8 @@ Start your container
 ````
 docker run -d \
   -v [/config/location]:/config \
-  -v [/complete/folder]:/complete \
-  -v [/incomplete/folder]:/incomplete \
+  -v [/downloads/folder]:/downloads \
   -e UID=[Users UID] \
   -e GID=[Users GID] \
-  -p 8080:8080 \
+  -p 6789:6789 \
   --restart=unless-stopped avpnusr/sabnzbd
