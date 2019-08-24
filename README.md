@@ -14,7 +14,7 @@ Versions in the latest image
 Start your container
 -----
 
-Login credentials for the Web-GUI are left on default, unless you load your own config, of course.   
+Login credentials for the Web-GUI are left default, unless you load your own config, of course.   
 
 **Username:** nzbget   
 **Password:** tegbzn6789   
