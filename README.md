@@ -3,7 +3,7 @@
 **nzbget in container with multiarch support**   
 ===
 
-Image is automatically updated, when a new version of nzbget arrives. 
+Image is automatically updated, when a new version of nzbget is available. 
 
 The container is lightweight and based on alpine Linux.
 
